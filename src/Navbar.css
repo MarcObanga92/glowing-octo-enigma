@@ -1,0 +1,39 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #333; /* Couleur de fond de la barre de navigation */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    color: white; /* Couleur du texte du logo */
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 15px;
+    color: white; /* Couleur du texte des éléments du menu */
+    cursor: pointer;
+  }
+  
+  .nav-links li:hover {
+    text-decoration: underline;
+  }
+ 
+
+.logo img {
+    width: 50px; /* Ajustez la taille du logo */
+    
+     height: auto;  /* Garantit que la hauteur s'ajuste proportionnellement à la largeur */
+  }
+  
+  

@@ -1,0 +1,22 @@
+/* Ajoutez ces styles à votre fichier CSS */
+
+.title {
+  text-align: center;
+}
+
+video {
+  display: block;
+  margin: auto;
+  margin-top: 20px; /* Ajoutez de la marge au-dessus de la vidéo si nécessaire */
+}
+
+.players-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.somm {
+  text-align: center;
+  color: brown;
+}
